@@ -1,0 +1,23 @@
+/* Reset estilos CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google fonts */
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+button {
+    background-color: rgb(56, 197, 56);
+    border-radius: 25px;
+    padding: 5px;
+    color: #fff;
+}
