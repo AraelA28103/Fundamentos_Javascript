@@ -1,0 +1,15 @@
+/* Reset estilos CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(190, 190, 190);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
