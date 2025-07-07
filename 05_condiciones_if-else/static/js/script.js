@@ -90,9 +90,12 @@ function palabraA() {
 }
 //Precio con descuento
 function precioDescuento() {
+    let iva = 0.19;
+    let descuento = parseFloat(prompt("Ingrese el valor de descuento: "));
+    descuento /= 100; // Operación para llevara a decimal
     let valorProducto = parseInt(prompt("Ingrese el precio del producto: "));
     if (valorProducto > 10000) {
-        alert("Se aplica descuento")
+        alert()
     } else {
         alert("No aplica para el descuento")
     }
