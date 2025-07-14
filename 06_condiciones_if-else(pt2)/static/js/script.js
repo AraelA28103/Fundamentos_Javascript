@@ -27,11 +27,11 @@ function correoValido() {
 function numeroPosNeg() {
     let num = prompt("Ingrese un número: ");
     if (num > 0) {
-        alert("El número " + num + " es positivo.")
+        alert("El número " + num + " es positivo.");
     } else if (num < 0) {
-        alert("El número " + num + " es negativo.")
+        alert("El número " + num + " es negativo.");
     } else {
-        alert("El número es cero")
+        alert("El número es cero");
     }
 }
 
@@ -43,9 +43,9 @@ function saludoPersonalizado() {
     } else if (hora >= 12 && hora < 18) {
         alert("Buenas tardes");
     } else if (hora >= 18 && hora < 24) {
-        alert("Buenas noches")
+        alert("Buenas noches");
     } else {
-        alert("Hora no válida, por favor ingrese hora de 0 - 23 hrs")
+        alert("Hora no válida, por favor ingrese hora de 0 - 23 hrs");
     }
 }
 
@@ -53,8 +53,8 @@ function saludoPersonalizado() {
 function palabraE() {
     let palabraE = prompt("Por favor, ingrese una palabra: ");
     if (palabraE.toLowerCase().includes('e')) {
-        alert("La palabra " + palabraE + ' contiene alguna letra "e" o "E"')
+        alert("La palabra " + palabraE + ' contiene alguna letra "e" o "E"');
     } else {
-        alert("La palabra " + palabraE + ' no contiene ninguna letra "e" o "E"')
+        alert("La palabra " + palabraE + ' no contiene ninguna letra "e" o "E"');
     }
 }
