@@ -81,33 +81,32 @@ function nombreValido() {
 
 //Verificar si una palabra empieza con "A"
 function palabraA() {
-    let palabra = prompt("Ingresa ua palabra: ");
+    let palabra = prompt("Ingresa una palabra: ");
     if (palabra[0] == "A") {
-        prompt("Su palabra " + palabra + ' empieza con "A"');
+        alert("Su palabra " + palabra + ' empieza con "A"');
     } else {
-        prompt("Su palabra " + palabra + ' no empieza con "A"');
+        alert("Su palabra " + palabra + ' no empieza con "A"');
     }
 }
 //Precio con descuento
 function precioDescuento() {
-    let iva = 0.19;
     let descuento = parseFloat(prompt("Ingrese el valor de descuento: "));
     descuento /= 100; // Operación para llevara a decimal
     let valorProducto = parseInt(prompt("Ingrese el precio del producto: "));
     if (valorProducto > 10000) {
-        alert()
+        alert("Su producto aplica para el descuento");
     } else {
-        alert("No aplica para el descuento")
+        alert("No aplica para el descuento");
     }
 }
 //Verificar si una persona puede conducir
 function puedeConducir() {
-    let edad = parseInt(prompt("Ingrese su edad. "));
-    let licencia = prompt("¿Posee una lisencia?: ").toLocaleLowerCase();
+    let edad = parseInt(prompt("Ingrese su edad: "));
+    let licencia = prompt("¿Posee una licencia? ").toLocaleLowerCase();
     if (edad >= 18 && licencia == "si") {
         alert("Si, si puede conducir");
     } else {
-        prompt("No, no puede conducir");
+        alert("No, no puede conducir");
     }
 }
 
